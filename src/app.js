@@ -1,4 +1,3 @@
-const request= require('postman-request')
 const geocode= require('../utils/geocode')
 const forecast= require('../utils/forecast') 
 const path= require('path')
