@@ -65,7 +65,7 @@ app.get('/weather',(req,res)=>{
                     else{
                         res.send({
                             location: location,
-                            temperature: temperature,
+                            temperature: "Temperature is "+ temperature + " and precipitation is "+ precip,
                             precip: precip
                         })    
                     }
